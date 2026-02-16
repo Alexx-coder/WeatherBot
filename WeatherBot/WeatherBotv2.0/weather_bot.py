@@ -81,7 +81,7 @@ class WeatherBot:
                 continue
 
 if __name__ == "__main__":
-    api_key = "98ae884ba2ff4cfe87355521261401" 
+    api_key = "Not real API-KEY" 
     
     try:
         app = WeatherBot(api_key)
@@ -89,4 +89,5 @@ if __name__ == "__main__":
     except Exception:
         pass
     finally:
+
         print("Weather Bot завершает свою работу! До свидания!")
